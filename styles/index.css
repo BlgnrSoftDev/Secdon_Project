@@ -1,0 +1,438 @@
+/* google fonts links */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;900&display=swap');
+
+*
+{
+    text-align: center;
+}
+
+/* NAVBAR SECTION -START */
+
+nav
+{
+    background-color: #1B2430;
+}
+.navbar-brand
+{
+    font-family: 'Great Vibes', cursive; 
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-button
+{
+    margin-left: auto;
+}
+
+.fa-solid
+{
+    color: white;
+
+}
+
+.icon-container
+{
+    display: inline-block;
+    padding: 0.3rem;
+    margin-left: 0.1rem;
+}
+
+.search-form
+{
+    margin-left: 40%;
+}
+
+.search-icon-container
+{
+    margin-left: auto;
+    margin-right: 1.5rem;
+    display: none;
+}
+
+@media (max-width: 768px)
+{
+    .search-icon-container
+    {
+        display: block;
+    }
+}
+
+
+/* NAVBAR SECTION -END  */
+
+
+
+
+/* BANNER SECTION -START  */
+
+#banner-section
+{
+    padding: 5rem 3rem 3rem;
+    background-color: #1B2430;
+
+}
+.banner-main-title
+{
+    font-family: Montserrat;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: white;
+    padding: 2rem;
+    /* line-height: 2; */
+}
+
+.bird-pic
+{
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
+#banner-addition
+{
+    padding: 5rem 3rem 10rem;
+    background-color: #fff;
+}
+
+.justice-lady-pic
+{
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
+
+
+@media (max-width: 589px)
+{
+    .banner-main-title
+    {
+        font-size: 1.5rem;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .bird-pic
+    {
+        width: 10rem;
+        height: 10rem;
+    }
+    .justice-lady-pic
+    {
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 0.5rem;
+    }    
+}
+
+/* BANNER SECTION -END  */
+
+
+
+
+/* USER COMMENT CAROUSELS -START */
+
+#comment-carousel
+{
+    background-image: url(/images/forest.jpg);
+    padding: 6rem;
+}
+
+.carousel-photo
+{
+    border-radius: 100%;
+    width: 11rem;
+    height: 11rem;
+    margin-bottom: 0.9rem;
+}
+
+.carousel-text
+{
+    margin-top: 1rem;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/* USER COMMENT CAROUSELS -END */
+
+
+/* FOOTER  */
+
+footer
+{
+    padding: 4rem;
+}
+
+
+/* LOGIN SECTION  */
+#login
+{
+    padding: 3rem;
+    padding-top: 8rem;
+}
+
+#login *
+{
+    text-align: left;
+}
+
+.login-banner
+{
+    font-family: Montserrat;
+    color: #fff;
+    background-color: black;
+    padding: 3rem;
+}
+
+.login-heading
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.login-desc
+{
+    padding-top: 1rem;
+    color: #FFFFFFDF;
+}
+
+.form-controls
+{
+    border: 3px solid black;
+}
+
+.login-input-item
+{
+    padding: 1rem;
+    margin-top: 0.4rem;
+}
+.login-btn
+{
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+}
+
+
+
+/* REGISTER SECTION  */
+
+#register
+{
+    padding: 3rem;
+    padding-top: 8rem;
+}
+
+#register *
+{
+    text-align: left;
+}
+
+.register-banner
+{
+    font-family: Montserrat;
+    color: #fff;
+    background-color: black;
+    padding: 3rem;
+}
+
+.register-heading
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.register-desc
+{
+    padding-top: 1rem;
+    color: #FFFFFFDF;
+}
+
+.form-controls
+{
+    border: 3px solid black;
+}
+
+.register-input-item
+{
+    padding: 1rem;
+    margin-top: 0.1rem;
+}
+.register-btn
+{
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+}
+
+
+/* PROFILE SECTION  */
+
+#profile-section
+{
+    margin: 0 5rem;
+    outline: 3px solid black;
+    background-color: #1B2430;
+}
+
+
+
+.profile-img
+{
+    border-radius: 100%;
+    width: 14rem;
+    height: 12rem;
+    margin: 3rem auto 0;
+}
+
+.user-property-row
+{
+    margin: 1rem;
+    padding: 1rem;
+    color: #fff;
+    border-bottom: 2px solid lightblue;
+    border-left: 2px solid lightblue;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.update-button
+{
+    margin: 3rem 0;
+}
+
+
+#update-profile-section
+{
+    padding: 3rem;
+    padding-top: 3rem;
+    margin: 0 8rem;
+}
+
+#update-profile-section *
+{
+    text-align: left;
+}
+
+.profile-banner
+{
+    font-family: Montserrat;
+    color: #fff;
+    background-color: black;
+    padding: 3rem;
+}
+
+.profile-heading
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.profile-desc
+{
+    padding-top: 1rem;
+    color: #FFFFFFDF;
+}
+
+.form-controls
+{
+    border: 3px solid black;
+}
+
+.profile-input-item
+{
+    padding: 1rem;
+    margin-top: 0.1rem;
+}
+.profile-btn
+{
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+}
+
+.profile-page-title
+{
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1B2430;
+    margin: 2.5rem 0 2rem 0;
+}
+
+.profile-page-info
+{
+    font-size: 1rem;
+    color: #1B2430DE;
+    font-family: 'Montserrat';
+}
+
+
+/* COMPANY LISTING SECTION  */
+
+#list-company
+{
+    margin: 0 5rem;
+}
+
+.company-list-page-header
+{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1B2430;
+    margin: 2rem 0 2rem 0;
+}
+
+.only-card
+{
+    width: 30rem;
+    margin: 0 auto;
+}
+
+
+.all-company-select-button
+{
+    margin-bottom: 5rem;
+}
+
+.company-pp
+{
+    width: 13rem;
+    height: 12rem;
+    border-radius: 100%;
+}
+
+.company-title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+    color: #fff;
+}
+
+.card-header
+{
+    background-color: #1B2430;
+}
+
+.card-body
+{
+    padding: 2rem;
+}
+.company-desc
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+}
+
+.card
+{
+    border-radius: 10%;
+}
